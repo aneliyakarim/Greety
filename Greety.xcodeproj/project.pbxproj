@@ -11,6 +11,15 @@
 		D0B422D929D31B6300D87B62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B422D829D31B6300D87B62 /* ContentView.swift */; };
 		D0B422DB29D31B6400D87B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B422DA29D31B6400D87B62 /* Assets.xcassets */; };
 		D0B422DE29D31B6400D87B62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B422DD29D31B6400D87B62 /* Preview Assets.xcassets */; };
+		D0B422E529D3289800D87B62 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B422E429D3289800D87B62 /* CircleImage.swift */; };
+		D0B422E729D32CCB00D87B62 /* ContactDetailBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B422E629D32CCB00D87B62 /* ContactDetailBackground.swift */; };
+		D0B422EF29D48BD200D87B62 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B422EE29D48BD200D87B62 /* Contact.swift */; };
+		D0B422F329D4B23A00D87B62 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B422F229D4B23A00D87B62 /* ModelData.swift */; };
+		D0B422F829D4B39D00D87B62 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B422F729D4B39D00D87B62 /* ContactRow.swift */; };
+		D0B422FA29D4B97B00D87B62 /* contactData.json in Resources */ = {isa = PBXBuildFile; fileRef = D0B422F929D4B97B00D87B62 /* contactData.json */; };
+		D0B422FC29D4C10200D87B62 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B422FB29D4C10200D87B62 /* ContactList.swift */; };
+		D0B422FE29D4C47800D87B62 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B422FD29D4C47800D87B62 /* ContactDetail.swift */; };
+		D0B4230029D4DF4900D87B62 /* NoBirthdaysImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B422FF29D4DF4900D87B62 /* NoBirthdaysImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		D0B422D829D31B6300D87B62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0B422DA29D31B6400D87B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B422DD29D31B6400D87B62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0B422E429D3289800D87B62 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D0B422E629D32CCB00D87B62 /* ContactDetailBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailBackground.swift; sourceTree = "<group>"; };
+		D0B422EE29D48BD200D87B62 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		D0B422F229D4B23A00D87B62 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D0B422F729D4B39D00D87B62 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		D0B422F929D4B97B00D87B62 /* contactData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contactData.json; sourceTree = "<group>"; };
+		D0B422FB29D4C10200D87B62 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		D0B422FD29D4C47800D87B62 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
+		D0B422FF29D4DF4900D87B62 /* NoBirthdaysImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoBirthdaysImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				D0B422D629D31B6300D87B62 /* GreetyApp.swift */,
-				D0B422D829D31B6300D87B62 /* ContentView.swift */,
+				D0B422F429D4B2BA00D87B62 /* Views */,
+				D0B422F529D4B2D000D87B62 /* Model */,
+				D0B422F629D4B31000D87B62 /* Resources */,
 				D0B422DA29D31B6400D87B62 /* Assets.xcassets */,
 				D0B422DC29D31B6400D87B62 /* Preview Content */,
 			);
@@ -65,6 +85,37 @@
 				D0B422DD29D31B6400D87B62 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0B422F429D4B2BA00D87B62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0B422D829D31B6300D87B62 /* ContentView.swift */,
+				D0B422FD29D4C47800D87B62 /* ContactDetail.swift */,
+				D0B422E429D3289800D87B62 /* CircleImage.swift */,
+				D0B422E629D32CCB00D87B62 /* ContactDetailBackground.swift */,
+				D0B422F729D4B39D00D87B62 /* ContactRow.swift */,
+				D0B422FB29D4C10200D87B62 /* ContactList.swift */,
+				D0B422FF29D4DF4900D87B62 /* NoBirthdaysImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0B422F529D4B2D000D87B62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0B422EE29D48BD200D87B62 /* Contact.swift */,
+				D0B422F229D4B23A00D87B62 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0B422F629D4B31000D87B62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0B422F929D4B97B00D87B62 /* contactData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B422FA29D4B97B00D87B62 /* contactData.json in Resources */,
 				D0B422DE29D31B6400D87B62 /* Preview Assets.xcassets in Resources */,
 				D0B422DB29D31B6400D87B62 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B422FE29D4C47800D87B62 /* ContactDetail.swift in Sources */,
 				D0B422D929D31B6300D87B62 /* ContentView.swift in Sources */,
+				D0B422E729D32CCB00D87B62 /* ContactDetailBackground.swift in Sources */,
+				D0B422EF29D48BD200D87B62 /* Contact.swift in Sources */,
 				D0B422D729D31B6300D87B62 /* GreetyApp.swift in Sources */,
+				D0B4230029D4DF4900D87B62 /* NoBirthdaysImage.swift in Sources */,
+				D0B422FC29D4C10200D87B62 /* ContactList.swift in Sources */,
+				D0B422E529D3289800D87B62 /* CircleImage.swift in Sources */,
+				D0B422F829D4B39D00D87B62 /* ContactRow.swift in Sources */,
+				D0B422F329D4B23A00D87B62 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
